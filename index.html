@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    .hide{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h3 style="cursor: pointer" id="title">Sweeties (click me)!</h3>
+  <ul>
+    <li>Cake</li>
+    <li>Donut</li>
+    <li>Honey</li>
+  </ul>
+<script>
+var list = document.getElementsByTagName("UL")[0];
+  title.addEventListener("click",function(){
+    list.classList.toggle("hide")
+  })
+</script>
+</body>
+</html>
